@@ -14,3 +14,18 @@ This Python script scrapes the MICCAI 2022 conference website to extract paper l
 Run the script
 
 ### python miccai_paper_scraper.py
+
+# note
+
+There are many areas of interest available on the Miccai website (search by topics). Following are a few of them:
+
+- Machine Learning - Continual Learning, 
+- Machine Learning - Active Learning, 
+- Machine Learning - Data efficient Learning, 
+- Machine Learning - Interpretability
+
+select the exact same area of interest from the Miccai website and append this ""/2022/papers/categories#"" with your area of interest.
+
+## Example:
+
+area_of_interest = ['/2022/papers/categories#Machine Learning - Continual Learning','/2022/papers/categories#Machine Learning - Transfer learning']
